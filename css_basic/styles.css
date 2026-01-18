@@ -25,3 +25,10 @@ aside {
     overflow-y: auto;
 }
 
+/* Responsive design for mobile devices */
+@media screen and (max-width: 768px) {
+    /* Stack article and aside vertically on small screens */
+    main {
+        flex-direction: column;
+    }
+}
